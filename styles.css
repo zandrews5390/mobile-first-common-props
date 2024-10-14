@@ -1,0 +1,169 @@
+/* TO DO: Add the CSS Reset Code Here */
+
+
+:root{
+    /* Colors from icons & Color Hexa (downloaded from flaticon.com) */
+    --dk-brwn: #4d382f;
+    --orange: #fa9a4b;
+    --yellow-grn: #daffbf;
+    --lt-blue-gray: #cbe3fa;
+    --blue-gray: #9ec7f0;
+    --dk-blue: #113e6b;
+
+    /* Neutrals */
+    --wht: #fff;
+    --lt-gray: #eaeaea;
+    --dk-gray: #222;
+
+    /* Fonts */
+    --fonts: Hind, Verdana, sans-serif;
+}
+
+/* TO DO: Follow along as we finish styling this page. Some styles have been written for you and commented out, so be sure to follow along to uncomment those as the instructions/video show */
+
+/* BODY STYLES */
+body{
+    /* TO DO: Complete the body styles by adding the fonts, line height, font size, font style, and box sizing */
+
+    /* Pattern from Pattern Monster */
+    /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='50' height='50' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23daffbfff'/><path d='M50 25L37.5 50 25 25 37.5 0zm-25 0L12.5 50 0 25 12.5 0z'  stroke-width='1.5' stroke='%239ceb63ff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    background-position: center;
+    background-attachment: fixed; */
+}
+
+/* SKIP LINK STYLES (from webaim) */
+#skip{
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+#skip:focus{
+    display: block;
+    padding: 16px;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	font-size: 1.3rem;
+	font-weight: bold;
+    background-color: var(--lt-gray);
+	outline: 4px solid var(--orange);
+    outline-offset: 0;
+}
+
+/* HEADER/MAIN/FOOTER SHARED STYLES */
+/* TO DO: Add shared styles for the header main and footer here. Include padding, width, max-width, margin for centering, and the white background color */
+
+
+/* HEADER STYLES */
+header{
+    /* border-bottom: 8px solid var(--dk-blue); */
+}
+
+/* HEADING STYLES */
+/* TO DO: Add styles here for the h1 and h2 headings on the page (include font weight and text alignment, plus font sizes and margin for each */
+
+/* LINK STYLES */
+/* TO DO: Add styles here for all of the links on the page. Include text color, and don't forget the important styles like hover and focus! */
+
+/* IMAGE STYLES */
+/* TO DO: Add styles here for all of the images and SVGs on the page */
+
+/* NAVIGATION STYLES */
+nav{
+    /* text-align: center; */
+}
+
+/* TO DO: Style the links in the navigation here to look more like buttons. Don't forget focus and hover styles! */
+
+/* TEXT STYLES */
+/* TO DO: Add styles here for all of the paragraphs on the page that will limit their width and make them centered on the page (not the text alignment, the actual container). Also give these some top and bottom padding */
+
+/* WELCOME SECTION STYLES */
+#welcome h2{
+    /* white-space: nowrap; */
+}
+
+#welcome img{
+    /* max-width: 1440px;
+    margin: 16px auto; */
+}
+
+/* ABOUT/CONTACT SHARED STYLES */
+/* TO DO: Add styles shared by the about and contact sections (padding and margin to center) */
+
+#about > a:hover, #contact > a:hover{
+    /* background-color: var(--wht); */
+}
+
+#about img, #contact img{
+    /* max-width: 200px; */
+}
+
+/* ABOUT SECTION STYLES */
+/* TO DO: set the yellow green color as background on this section */
+
+
+/* CONTACT SECTION STYLES */
+/* TO DO: set the light blue gray color as the background on this section */
+
+
+#contact p > a{
+    /* display: inline;
+    padding: 0; */
+}
+
+/* TO DO: Add hover styles to the link in the paragraph in the contact section. Remove the underline and make the background color white */
+
+/* FOOTER STYLES */
+/* TO DO: Add footer styles here. Include padding, text aligned to the center, and a solid 8 pixel border in dark blue */
+
+footer a:hover{
+    /* text-decoration: none;
+    background-color: var(--yellow-grn); */
+}
+
+.desktop{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+/* SOCIAL MEDIA SECTION STYLES */
+/* These have been included for you as they include some styles we haven't learned yet, like CSS Grid */
+#social-media div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    max-width: 260px;
+    margin: 0 auto;
+}
+
+#social-media a{
+    width: 44px;
+    height: 44px;
+}
+
+#social-media a{
+    border-radius: 50%;
+}
+
+#social-media svg{
+    width: 44px;
+    height: 44px;
+    stroke: var(--dk-blue);
+}
+
+#social-media a:hover{
+    background-color: var(--lt-blue-gray);
+}
+
+#social-media a:hover svg{
+    stroke: var(--dk-gray);
+}
