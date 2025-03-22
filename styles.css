@@ -68,7 +68,6 @@ table {
 
 /* BODY STYLES */
 body{
-    /* TO DO: Complete the body styles by adding the fonts, line height, font size, font style, and box sizing */
     font-family: var(--fonts);
     font-style: normal;
     color: var(--dk-gray);
@@ -79,7 +78,7 @@ body{
     /* Pattern from Pattern Monster */
     background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='50' height='50' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23daffbfff'/><path d='M50 25L37.5 50 25 25 37.5 0zm-25 0L12.5 50 0 25 12.5 0z'  stroke-width='1.5' stroke='%239ceb63ff' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
     background-position: center;
-    background-attachment: fixed; */
+    background-attachment: fixed;
 }
 
 /* SKIP LINK STYLES (from webaim) */
